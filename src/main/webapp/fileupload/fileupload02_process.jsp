@@ -44,20 +44,24 @@
 		<th>이 름</th>
 		<th>제 목</th>
 		<th>파 일</th>
+		<th>이미지</th>
 	</tr>
 	<tr>
 		<td><%=name1 %></td>
 		<td><%=title1 %></td>
 		<td><%=filename1 %></td>
+		<td><img src="../upload/<%=filename1 %>"></td>
 	</tr>
 	<tr>
 		<td><%=name2 %></td>
 		<td><%=title2 %></td>
 		<td><%=filename2 %></td>
+		<td><img src="../upload/<%=filename2 %>"></td>
 	</tr>
 	<tr>
 		<td><%=name3 %></td>
 		<td><%=title3 %></td>
 		<td><%=filename3 %></td>
+		<td><img src="../upload/<%=filename3 %>"></td>
 	</tr>
 </table>
