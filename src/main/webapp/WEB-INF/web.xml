@@ -44,4 +44,15 @@
   	<error-code>500</error-code>
   	<location>/exception/errorCode_msg.jsp</location>
   </error-page>
+  
+  <!-- 서블릿 등록 -->
+  <servlet>
+  	<servlet-name>calcServlet</servlet-name>
+  	<servlet-class>com.mvc.CalcServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>calcServlet</servlet-name>
+  	<url-pattern>/mvc/calc</url-pattern>
+  </servlet-mapping>
 </web-app>
