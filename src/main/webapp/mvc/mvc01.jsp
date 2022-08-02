@@ -7,7 +7,6 @@
 	<meta charset="UTF-8">
 	<title>MVC</title>
 </head>
-<jsp:useBean id="mvcServlet" class="com.mvc.MvcServlet"/>
 <body>
 	<p>${names[0] }<br>
 	<p>${names[1] }<br>
@@ -28,11 +27,6 @@
 		<span>${lotto }</span>
 	</c:forEach>
 	
-	<%
-		for(int i = 0; i < 6; i++){
-			
-		}
-	%>
 	
 	
 </body>
