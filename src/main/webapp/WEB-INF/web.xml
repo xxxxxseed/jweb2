@@ -92,7 +92,7 @@
   	<filter-class>com.filter.LogFileFilter</filter-class>
   	<init-param>
 		<param-name>filename</param-name>
-		<param-value>C:\\logs\\monitor.log</param-value>  	
+		<param-value>C:/logs/monitor.log</param-value>  	
   	</init-param>
   </filter>
   
